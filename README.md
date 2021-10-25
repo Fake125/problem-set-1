@@ -6,6 +6,10 @@ You are given strings S and C. String S repersents a table in CSV(comma-seperate
 
 The first row contains the names of the columns. The following rows contain values.
 
+id | name | age | act | room | dep. |
+---|------|------|----|------|------|
+
+
 +-------++-------++-------++-------++-------++-------+
 |id 	| name   | age	   |   act  |	room | dep.  |
 +-------+--------|---------|--------|--------|-------|
