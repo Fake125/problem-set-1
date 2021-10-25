@@ -7,8 +7,9 @@ You are given strings S and C. String S repersents a table in CSV(comma-seperate
 The first row contains the names of the columns. The following rows contain values.
 
 id | name | age | act | room | dep. |
----|------|------|----|------|------|
-
+---|------|-----|----|------|-------|
+1  | jack | 68  | T  | 13   | 8     |
+17  | betty | 28  | F  | 15   | 7   |
 
 +-------++-------++-------++-------++-------++-------+
 |id 	| name   | age	   |   act  |	room | dep.  |
