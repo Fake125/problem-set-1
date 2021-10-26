@@ -61,6 +61,7 @@ that, given an array R consisting of N strings, each of length M, representing t
 Examples:
 
 1. Given A = ["...X..","....XX","..X..."] , your function should return 6.
+
 ![5](https://user-images.githubusercontent.com/77664485/138788103-77bb13a1-4aed-4d61-a440-ea77c515ca46.png)
 
 2. Given A = ["....X..","X......",".....X.","......."] , your function should return 15.
