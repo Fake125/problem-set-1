@@ -30,6 +30,7 @@ area | land
 3855 | CA  |
 3797 | USA |
 
+
 ## Problem_2
 You are given an array of integers, where positive numbers represent revenues and negative numbers represent expenses, all in chronological order. In one move you can relocate any expense(negative number) to the end of the array. What is the minimum number of such relocations to make sure that the company never falls into debt(in other words: you need to ensure that there is no consecturive sequence of elements starting from the beginning of the array, that sums up to a negative number)?
 
@@ -45,3 +46,22 @@ Examples:
 1. Given A= [10,-10,-1,-1,10], the function should return 1. it is enough to move -10 to the end of the array.
 
 2. Given A= [5,-2,-3,1], the answer is 0. The company balance is always nonnegative.
+
+
+## Problem_3
+There is a cleaning robot which is cleaning a rectangular grid of size N*M, represented by array R consisting of N strings. Rows are numbered from 0 to N-1(from top to bottom) and columns are numbered from 0 to M-1(from left to right).
+
+The robot starts cleaning in the top-left corner, facing rightwards . it moves in a straight line for as long as it can, i.e. while there is an unoccupied grid square ahead of it. When it cannot move forward, it rotates 90 degrees clockwise and tries to move forward again until it encounters another obstacle, and so on. Dots in the array (".") represents empty squaeres and "X"s represent occupied squares (ones the robot cannot move through). Each square that the robot occupied at least once is considered clean. The robot moves indefinitely. 
+
+write a function: 
+
+def solution(R)
+that, given an array R consisting of N strings, each of length M, representing the grid, returns the number of clean squares.
+
+Examples:
+
+1. Given A = ["...X..","....XX","..X..."] , your function should return 6.
+![5](https://user-images.githubusercontent.com/77664485/138788103-77bb13a1-4aed-4d61-a440-ea77c515ca46.png)
+
+2. Given A = ["....X..","X......",".....X.","......."] , your function should return 15.
+
