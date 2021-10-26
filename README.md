@@ -29,3 +29,19 @@ area | land
 6612 | RU  |
 3855 | CA  |
 3797 | USA |
+
+## Problem_2
+You are given an array of integers, where positive numbers represent revenues and negative numbers represent expenses, all in chronological order. In one move you can relocate any expense(negative number) to the end of the array. What is the minimum number of such relocations to make sure that the company never falls into debt(in other words: you need to ensure that there is no consecturive sequence of elements starting from the beginning of the array, that sums up to a negative number)?
+
+you can assume that the sum of all elements in A is nonnegative.
+
+write a function:
+
+def solution(A)
+that, given an array A of N integers, returns the minimum number of relocations, so that company never falls into debt.
+
+Examples:
+
+1. Given A= [10,-10,-1,-1,10], the function should return 1. it is enough to move -10 to the end of the array.
+
+2. Given A= [5,-2,-3,1], the answer is 0. The company balance is always nonnegative.
