@@ -1,7 +1,7 @@
 # problem-set-1
 my python code solutions to solve a set of defined problems
 
-## Probem-1
+## Probem_1
 You are given strings S and C. String S repersents a table in CSV(comma-seperated values) format, where rows are seperated by new line characters('\n') and each row consists of one or more fields sperated by commmas(',').
 
 The first row contains the names of the columns. The following rows contain values.
